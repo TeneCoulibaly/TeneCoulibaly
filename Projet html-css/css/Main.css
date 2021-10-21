@@ -1,0 +1,269 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+/*////////////////////////////////////////////////DEBUT HEADER*/
+header{
+    background-image: url(../img/some-tale-7GvGXH1GxNY-unsplash.jpg);
+    height: 500px;
+    background-size: cover ;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+div.logo{
+    width: 25%;
+}
+.logo img{
+    width: 150px;
+    height: 150px;
+    padding: 25px 0 0 15px;
+}
+
+p.préheader{
+    background-color: black;
+    text-align: right;
+    color: white;
+    height: 30px;
+    font-size: 17px;
+    padding-top: 10px;
+    padding-right: 150px;
+}
+
+a{
+    text-decoration: none;
+    color: burlywood;
+}
+
+a:hover{
+    background-color: rgba(128, 128, 128, 0.479)
+  ;
+}
+
+ol{
+    padding: 0 100px 0 0;
+  
+}
+
+ol li {
+    list-style: none;
+    float: right;
+    margin: 35px 30px 0 0;
+    }
+    
+    ol li a{
+        font-size: 30px;
+        color: white;
+        padding: 10px;
+    }
+
+.MaSection2 p{
+font-size: 30px;
+padding: 40px 170px 0 700px ;
+color: burlywood;
+text-align: right;
+}
+
+.MaSection2 a{
+    background-color: rgba(153, 124, 124, 0.884);
+    float: right;
+    font-size: 30px;
+    position: relative;
+    right: 170px;
+    top: 10px;
+    border: burlywood 1px solid;
+    color: whitesmoke;
+    text-decoration: none;
+    padding: 10px;
+    text-transform: uppercase;
+}
+
+.MaSection2 a:hover{
+    font-size: 31px;
+    transition: 0.5s;
+}
+/*///////////////////////////////////////////////////////////Fin HEADER*/
+/*//////////////////////////////////////////////////////DEBUT SECTION 3*/
+.MaSection3{
+    background-color: rgba(0, 0, 0, 0.884);
+}
+h1{
+    padding: 50px 0 0 0;
+    font-size: 40px;
+    text-align: center;
+    color:white;
+    font-family: URW Chancery L, cursive;
+}
+
+
+hr{
+    background-color: burlywood;
+    width: 200px;
+    height: 1px;
+    margin: 8px auto;
+}
+
+
+
+div.Paragraphe1{
+    padding: 50px 0 0 0;
+    width: 65%;
+    display: flex;
+    justify-content:space-between;
+    margin: 0 auto;
+}
+
+div.img{
+    float: right;
+    padding: 10px 0 0 0;
+}
+
+.Paragraphe1 p{
+    font-size: 20px;
+    color: white;
+}
+
+span{
+    font-size: 40px;
+    font-weight: bold;
+    text-transform: capitalize;
+    font-family: URW Chancery L, cursive;
+    
+}
+/*////////////////////////////////////////////////////FIN SECTION 3*/
+/*////////////////////////////////////////////////////DEBUT SECTION 4*/
+
+.MaSection4{
+    background-color: rgba(153, 124, 124, 0.884);
+}
+
+div.Paragraphe2{
+    width: 65%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    border-left: 1px SOLID rgba(0, 0, 0, 0.123);
+    border-right: 1px SOLID rgba(0, 0, 0, 0.123);
+    padding: 10px 10px 10px 10px;
+}
+.Paragraphe2 p{
+    font-size: 20px;
+    padding: 60px 0 0 0;
+    color: black;
+}
+
+span{
+    font-size: 40px;
+    font-weight: bold;
+    text-transform: capitalize;
+    color: white;
+}
+
+a.VoirTarif{
+    font-size: 25px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.384);
+    padding: 5px;
+    color: black;
+}
+
+a.VoirGalerie{
+    font-size: 25px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.384);
+    padding: 5px;
+    color: black;
+    margin: 0 0 0 10px;
+}
+
+a.VoirGalerie:hover{
+ color: gray;
+    transition: 0.5s;
+}
+a.VoirTarif:hover{
+ color: gray;
+    transition: 0.5s;
+}
+/*////////////////////////////////////////////////////FIN SECTION 4*/
+/*////////////////////////////////////////////////////DEBUT SECTION 5*/
+
+section.MaSection5{
+    height: 500px;
+}
+
+.MaSection5 {
+    background-color: rgba(0, 0, 0, 0.884);
+}
+
+.GroupeImg{
+    text-align: center;
+    width: 70%;
+    margin: 0 auto;
+    display: flex;
+ justify-content: space-between;
+}
+.GroupeImg img{
+    padding: 0 40px;
+    margin-top: 30px;
+    border: 0.5px solid rgba(153, 124, 124, 0.884);
+}
+
+.imgCentre span{
+    font-style: italic;
+    color: white;
+    font-size: 25px;
+}
+
+Div.Equipe{
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+    padding: 50px 0 0 0;
+     color: white;
+}
+
+/*////////////////////////////////////////////////////FIN SECTION 5*/
+/*////////////////////////////////////////////////////DEBUT FOOTER*/
+
+footer{
+    background-color: black;
+    
+    
+}
+div.textfooter{
+     display: flex;
+     width: 50%;
+    margin: 0 0  0 500px;
+}
+
+.textfooter img{
+    margin-top: 20px;
+}
+
+.textfooter span{
+    font-size: 20px;
+    padding-top: 30px;
+       color: white;
+}
+
+span.f1{
+    font-size: 15px;
+}
+
+span a:hover{
+color: gray;
+border-bottom: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

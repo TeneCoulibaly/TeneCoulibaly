@@ -1,0 +1,182 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background-image: url(../img/abstract-grunge-decorative-relief-navy-blue-stucco-wall-texture-wide-angle-rough-colored-background.jpg);
+    height: 500px;
+    background-size: cover ;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+div.logo{
+    width: 25%;
+}
+.logo img{
+    width: 150px;
+    height: 150px;
+    padding: 25px 0 0 15px;
+}
+
+p.préheader{
+    background-color: black;
+    text-align: right;
+    color: white;
+    height: 30px;
+    font-size: 17px;
+    padding-top: 10px;
+    padding-right: 150px;
+}
+
+a{
+    text-decoration: none;
+    color: burlywood;
+}
+
+a:hover{
+    background-color: rgba(128, 128, 128, 0.479)
+  ;
+}
+
+ol{
+    padding: 0 100px 0 0;
+}
+
+ol li {
+    list-style: none;
+    float: right;
+    margin: 35px 30px 0 0;
+    }
+    
+    ol li a{
+        font-size: 30px;
+        color: white;
+        padding: 10px;
+    }
+.MaSection2{
+    text-align: center;
+}
+
+.MaSection2 span{
+    font-size: 90px;
+    color: whitesmoke;
+    text-decoration: none;
+    padding: 10px;
+    text-transform: capitalize;
+}
+
+/*/////////////////////////////////////////////////////Fin HEADER*/
+
+.MaSection3{
+   background-color: rgba(204, 204, 204, 0.884);
+}
+.photo{
+    display: flex;
+    margin-bottom: -300px;
+}
+.photo img{ 
+width: 325px;
+    height: 225px;
+    padding: 5px 5px 50px 5px;
+    box-shadow: 1px 5px 5px 1px gray;
+    margin-bottom: 20px;
+}
+
+.photo img:hover{
+    box-shadow: none;
+}
+
+
+.colonne1{
+    display: flex;
+    flex-direction: column;
+    margin-top: 80px;
+    margin-left: 90px;
+    
+}
+    
+.colonne2{
+        
+    display: flex;
+    flex-direction: column;
+    margin-top: 80px;
+    margin-left: 20px;
+}
+
+
+.colonne3{
+    
+    display: flex;
+    flex-direction: column;
+    margin-top: 80px;
+    margin-left: 20px;
+}
+
+.colonne4{
+
+    display: flex;
+    flex-direction: column;
+
+    margin-top: 80px;
+    margin-left: 20px;
+}
+
+div.lien{
+text-align: center;
+}
+
+/*Footer*/
+
+footer{
+    background-color: black;
+margin-top: 300px;
+    
+    
+}
+div.textfooter{
+     display: flex;
+     width: 50%;
+margin: 0 0  0 500px;
+}
+
+.textfooter img{
+    margin-top: 20px;
+}
+
+.textfooter span{
+    font-size: 20px;
+    padding-top: 30px;
+    color: white;
+}
+
+span.f1{
+    font-size: 15px;
+}
+span a{
+    color: white;
+}
+
+span a:hover{
+color: gray;
+border-bottom: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
